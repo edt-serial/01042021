@@ -39,6 +39,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.Админ</roles>
+  <roles>Role.НеАдмин</roles>
   <commonCommands>CommonCommand.НайтиТоварПоНазванию</commonCommands>
   <catalogs>Catalog.Товары</catalogs>
 </mdclass:Configuration>
