@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d8d940f-557d-437f-b87c-e54d984ee4a2">
+  <producedTypes>
+    <objectType typeId="a4c0a701-ffb6-4663-acff-b75c8d067448" valueTypeId="7ed119d8-3ed1-4b45-acba-1d9aa0f39188"/>
+    <refType typeId="cf7dc2f2-663a-40d8-8111-c36b952e3ab5" valueTypeId="088ecd81-e7f8-45ef-812b-b5273b7c36d1"/>
+    <selectionType typeId="bca0c5b4-6dd5-46b8-b8d6-ce99e31c47f4" valueTypeId="32659b3d-2fea-4707-90ee-7de8761fe33f"/>
+    <listType typeId="12b8832b-93a3-4adb-8ee1-d04f36097cd7" valueTypeId="b1d0519a-7d57-4c26-9886-038c6f729f14"/>
+    <managerType typeId="fabbfbab-a9da-4409-9f56-4c16bfed3ea2" valueTypeId="c28fb26e-abc2-4841-b97e-99dc72e3ff5c"/>
+  </producedTypes>
+  <name>ПродажаТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПродажаТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1be8d896-28e8-41e6-95a7-4973ba1d07fe">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="567151c9-901f-4cd6-b832-d5cf6694b21b">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
